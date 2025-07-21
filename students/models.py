@@ -20,7 +20,7 @@ class StudentModel(models.Model):
 
     def save(self, *args, **kwargs):
         if not self.phone_number.startswith('+998'):
-            cleaned = re.sub(r'\D', '', self.phone_number)  # Удаляет пробелы, тире и т.п.
+            cleaned = re.sub(r'\D', '', self.phone_number)  
             if len(cleaned) == 9:
                 self.phone_number = f'+998{cleaned}'
         super().save(*args, **kwargs)
