@@ -4,11 +4,11 @@ Backend-система для управления спонсорами и ст�
 
 ## 🚀 Установка и запуск
 
-git clone https://github.com/quramboyev/MetsenatAPI.git
-cd MetsenatAPI
-pip install -r requiroments.txt
-python manage.py migrate
-python manage.py runserver
+- git clone https://github.com/quramboyev/MetsenatAPI.git
+- cd MetsenatAPI
+- pip install -r requiroments.txt
+- python manage.py migrate
+- python manage.py runserver
 
 ## 🔧 Стек технологий
 
@@ -20,11 +20,11 @@ python manage.py runserver
 ## 📦 Структура проекта
 
 metsenatAPI/
-├── config/ # Настройки Django
-├── sponsors/ # Приложение спонсоров
-├── students/ # Приложение студентов
-├── manage.py
-└── requirements.txt
+- ├── config/ # Настройки Django
+- ├── sponsors/ # Приложение спонсоров
+- ├── students/ # Приложение студентов
+- ├── manage.py
+- └── requirements.txt
 
 ## 📄 Документация API
 
